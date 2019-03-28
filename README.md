@@ -1,5 +1,14 @@
 # vue-fire-payumoney
 
+ Add razorpay script to index.html
+ 
+ ```
+ <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+ 
+ ```
+
+ Check Home.vue and functions/index.js files for exact code.
+
 ## Project setup
 ```
 yarn install
