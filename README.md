@@ -3,8 +3,7 @@
  Add razorpay script to index.html
  
  ```
- <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
- 
+ <script src="https://checkout.razorpay.com/v1/checkout.js"></script> 
  ```
 
  Check Home.vue and functions/index.js files for exact code.
