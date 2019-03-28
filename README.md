@@ -1,4 +1,4 @@
-# vue-fire-payumoney
+# vue-fire-razorpay
 
  Add razorpay script to index.html
  
