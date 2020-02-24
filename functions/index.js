@@ -52,7 +52,7 @@ app.post("/confirmPayment", (req, res) => {
   const order = req.body;
   const text = order.razorpay_order_id + "|" + order.razorpay_payment_id;
   var signature = crypto
-    .createHmac("sha256", key)
+    .createHmac("sha256", key_secret)
     .update(text)
     .digest("hex");
 
